@@ -13,6 +13,15 @@
 <thumbnail>https://i.ytimg.com/vi/3CjRLppejDU/hqdefault.jpg</thumbnail>
 <fanart>https://i.ytimg.com/vi/3CjRLppejDU/hqdefault.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Velvet%20Coleccion.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Series</externallink>
 </item>
+
+<item>
+<title>EVENTOS DEPORTIVOS</title>        
+<thumbnail>https://reddecomunicadoresrd.files.wordpress.com/2011/07/deportes.gif?w=600</thumbnail>
+<fanart>https://reddecomunicadoresrd.files.wordpress.com/2011/07/deportes.gif?w=600</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Deportes.xml</externallink>
+</item>
+
  
