@@ -2,7 +2,7 @@
 
 <item>
 <title>[COLOR lime]20:30 Real Zaragoza - Osasuna[/COLOR]</title>        
-<url>http://www.dinozap.info/redirect/channel.php?id=111&width=650&height=450&autostart=true</url>
+<sportsdevil>http://www.dinozap.info/redirect/channel.php?id=111&width=650&height=450&autostart=true</sportsdevil>
 <referer>http://dinozap.info</referer>
 <thumbnail>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</thumbnail>
 <fanart>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</fanart>
@@ -10,8 +10,8 @@
 
 <item>
 <title>[COLOR yellow]20:45 Real Betis - Valencia[/COLOR]</title>        
-<urlsolve>http://www.dinozap.info/redirect/channel.php?id=119&width=650&height=450&autostart=true</urlsolve>
+<sportsdevil>http://www.dinozap.info/redirect/channel.php?id=119&width=650&height=450&autostart=true</sportsdevil>
 <thumbnail>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</thumbnail>
-<info></info>
+<referer></referer>
 <fanart>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</fanart>
 </item>
