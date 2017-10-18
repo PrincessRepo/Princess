@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
+  
 <item>
 <title>VELVET COLECCION</title>        
 <thumbnail>http://cadenaser00.epimg.net/ser/imagenes/2017/02/14/television/1487079674_032190_1487080804_sumario_normal.jpg</thumbnail>
 <fanart>http://hdfull.tv/tthumb/220x124/show_8027963c12f1ecf580b1fb1fbdc9f8f9.jpg</fanart>
 <info>Ahora la empresa ha abierto una nueva sucursal en el Paseo de Gracia de Barcelona, y todos los protagonistas dejarán Madrid para trasladarse a Barcelona y así seguir expandiendo Velvet.</info>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/VelvetColeccion.xml</externallink>
+</item>
+<item>
+<title>VELVET</title>        
+<thumbnail>http://www.icmedianet.org/wp/ndog/wp-content/uploads/2014/04/Velvet-Serie-de-TV-POSTER.jpg</thumbnail>
+<fanart>https://www.justwatch.com/images/backdrop/487626/s1440/velvet</fanart>
+<info>En la España de 1958 hay un lugar al que todo el mundo desearía ir de compras al menos una vez en la vida: las 'Galerías Velvet'. Ubicadas en la Gran Vía madrileña, entre sus paredes se encuentran los trajes más elegantes, sofisticados y caros del momento, pero sobre todo se esconde una de las más maravillosas historias de amor que se haya contado jamás: la de Ana y Alberto. </info>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/VelvetColeccion.xml</externallink>
 </item>
