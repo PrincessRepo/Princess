@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Villancicos</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-]]></listrepeat>
-<expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-<page>https://www.youtube.com/watch?v=15JMDZS0wI8&t=843s</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://staticf5a.cordoba.net/sites/default/files/styles/landscape_1008_566/public/archivo/villancicos%20navide%C3%B1os%20rosario.jpg</thumbnail>
-<fanart>http://staticf5a.cordoba.net/sites/default/files/styles/landscape_1008_566/public/archivo/villancicos%20navide%C3%B1os%20rosario.jpg</fanart>
+<title>Canciones de Navidad en Español</title>
+<link>https://youtu.be/15JMDZS0wI8</link>
+<thumbnail>https://i.ytimg.com/vi/15JMDZS0wI8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD043hnn1KM0_HhZUo7kyChQyYq4w</thumbnail>
+<fanart>https://i.ytimg.com/vi/15JMDZS0wI8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD043hnn1KM0_HhZUo7kyChQyYq4w</fanart>
+</item>
+
+
+<item>
+<title>Canciones de Navidad en Ingles</title>
+<link>https://youtu.be/IVhuT-xMdrQ</link>
+<thumbnail>https://i.ytimg.com/vi/IVhuT-xMdrQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBo_2V4HVjfUArjMIRYl3R2TS103g</thumbnail>
+<fanart>https://i.ytimg.com/vi/IVhuT-xMdrQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBo_2V4HVjfUArjMIRYl3R2TS103g</fanart>
 </item>
