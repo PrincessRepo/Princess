@@ -23,3 +23,42 @@
 <externallink>http://www.dinozap.info/redirect/channel.php?id=114&width=650&height=450&autostart=true</externallink>
 <fanart>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</fanart>
 </item>
+
+
+Referer=http://www.dinozap.info/redirect/embedredi.php
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR lime]10:45 Real Betis - Valencia[/COLOR]</title>        
+<sportsdevil></sportsdevil>
+<thumbnail>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</thumbnail>
+<link>acestream://471386e7333964fa7697157a2fdf2785c532d36f</link>
+<fanart>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]12:45 Real Betis - Valencia[/COLOR]</title>        
+<sportsdevil></sportsdevil>
+<thumbnail>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</thumbnail>
+<link>http://www.dinozap.info/redirect/channel.php?id=111&width=650&height=450&autostart=true</link>
+<fanart>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]20:45 Real Madrid vs Eibar[/COLOR]</title>        
+<sportsdevil>http://www.dinozap.info/</sportsdevil>
+<thumbnail>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</thumbnail>
+<externallink>http://www.dinozap.info/redirect/channel.php?id=114&width=650&height=450&autostart=true</externallink>
+<fanart>https://www.adslzone.net/app/uploads/2017/08/donde-ver-futbol-temporada-2017-2018.jpg</fanart>
+</item>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[makelist2.param2]</title>
+<link>$doregex[get-m3u8]|User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36&amp;Referer=http://www.dinozap.info/redirect/embedredi.php</link>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres>nombre.*href="(.*?)" title="(.*?)"</expres>
+<page>http://www.vipgoal.net/</page>
+ </regex>

@@ -2,6 +2,18 @@
 
 <SetViewMode>503</SetViewMode>
 
+
+
+<item>
+<title>BUSCADOR</title>        
+<thumbnail>https://pbs.twimg.com/profile_images/2128940121/buscar-empleo_400x400.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/2128940121/buscar-empleo_400x400.jpg</fanart>
+<info>Busca tu serie</info>
+RunScript (script.globalsearch)
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
 <item>
 <title>VELVET COLECCION</title>        
 <thumbnail>http://cadenaser00.epimg.net/ser/imagenes/2017/02/14/television/1487079674_032190_1487080804_sumario_normal.jpg</thumbnail>
