@@ -6,7 +6,7 @@
         <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio Princess</summary>
+        <summary>Princess</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
