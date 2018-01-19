@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Princess"
        name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
-       version=""
+       version="0.1.0"
        provider-name="Iker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

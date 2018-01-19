@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Princess" name="[COLOR lime]Princess[/COLOR] Repo" version="" provider-name="Iker">
+<addon id="repository.Princess" name="[COLOR lime]Princess[/COLOR] Repo" version="0.0.1" provider-name="Iker">
     <extension point="xbmc.addon.repository" name="Princess">
         <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml.md5</checksum>
