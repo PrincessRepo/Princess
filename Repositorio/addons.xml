@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.adryanlist"
+       name="AdryanList"
+       version="2.8.2"
+       provider-name="Adryan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>AdryanList  - Television - Peliculas - Series</summary>
+    <description>Adryanlist
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.festa"
        name="[COLOR aqua]*[/COLOR][COLOR lime]FESTA[/COLOR][COLOR aqua]*[/COLOR]"
        version="0.0.7"
@@ -36,6 +68,48 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.kodispaintv"
+       name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
+       version="2.1.1"
+       provider-name="joheos11">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+		<summary>Canales de la Television Española y más...</summary>
+		<description>
+		Complemento de video basado en LiveStreamsPro
+		Puedes seguirme en https://t.me/kodispain y http://konectas.es
+
+		AVISO LEGAL:
+
+		Este complemento no aloja ningun contenido mostrado.
+		Todo el contenido se encuentra libremente en internet.
+		No se acepta ninguna responsabilidad por el uso de este addon.
+
+		Enjoy!
+		</description>
+		<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Princess"
        name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
        version="0.1.2"
@@ -55,6 +129,7 @@
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
@@ -66,7 +141,7 @@
     </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Iker</summary>
+    <summary>Creado por y para tí</summary>
     <description>Julio 2017</description>
     <platform>all</platform>
   </extension>
@@ -109,6 +184,20 @@ addonsinbarreras@gmail.com
 
 https://t.me/sinbarreras
 	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.usbwizard" name="Backup Restore WIZARD" version="1.2.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">USB-SDCARD WIZARD</summary>
+    <description lang="en">Configure XBMC with all the Best Goodies!</description>
     <platform>all</platform>
   </extension>
 </addon>
