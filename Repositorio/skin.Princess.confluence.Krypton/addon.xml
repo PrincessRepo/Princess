@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.Princess.confluence-Krypton" version="0.0.1" name="Princess-Confluence-Krypton" provider-name="Jezz_X, Team Kodi, Iker">
+<addon id="skin.Princess.confluence.Krypton" version="0.0.1" name="Princess-Confluence-Krypton" provider-name="Jezz_X, Team Kodi, Iker">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.Princess.confluence" version="" name="Princess-Confluence-Leia" provider-name="Jezz_X, Team Kodi, Iker">
+<addon id="skin.Princess.Confluence.Leia" version="" name="Princess-Confluence-Leia" provider-name="Jezz_X, Team Kodi, Iker">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 	</requires>
