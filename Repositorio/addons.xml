@@ -83,10 +83,10 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />    
+    <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
-	
+
 	<import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -100,15 +100,15 @@
     <description>
     Addon Creado por Netai con la inestimable ayuda y soporte de AdryanList y Catoal!
 	Grupo Netai GNU/GPU 2018 LICENCE.
-	
-	Ahora se puede consultar en la web del grupo Netai http:gruponetai.com 
+
+	Ahora se puede consultar en la web del grupo Netai http:gruponetai.com
 	dicha licencia. Esta ira variando con el paso del tiempo. Tambien puede solicitarla en el telegram a los comprañeros.
-	
+
     </description>
     <platform>all</platform>
     </extension>
     </addon>
-	
+
 <addon id="plugin.video.kodispaintv"
        name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
        version="2.1.1"
