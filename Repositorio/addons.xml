@@ -755,7 +755,7 @@ https://t.me/sinbarreras
 
 <addon id="Wizard.Princess.Krypton"
 	   name="Wizard.Princess.Krypton"
-	   version="0.0.1"
+	   version=""
 	   provider-name="Iker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
