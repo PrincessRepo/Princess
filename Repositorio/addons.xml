@@ -769,21 +769,4 @@ https://t.me/sinbarreras
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="Wizard.Princess.Leia"
-	   name="Wizard.Princess.Leia"
-	   version="0.0.1"
-	   provider-name="Iker">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Wizard</summary>
-    <description>Wizard configurando correctamente tu Kody</description>
-    <platform>all</platform>
-  </extension>
-</addon>
 </addons>
