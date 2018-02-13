@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR yellow]Tres metros sobre el cielo[/COLOR]</title>        
+<urlsolve>http://streamcloud.eu/3lt3qruxomba</urlsolve>
+<info>En Barcelona, dos jóvenes que pertenecen a mundos opuestos se conocen. Ella, la dulce Babi (María Valverde), es una chica de clase alta que vive en un entorno tan protegido como poco excitante. Él, Hugo (Mario Casas), conocido como el duro "H", es un chico impulsivo e irresponsable, aficionado a las peleas y a las carreras ilegales de motos. Esta es la crónica de un amor inicialmente imposible que arrastrará a ambos a un frenético viaje iniciático a través del cual descubrirán el amor.</info>
+<thumbnail>http://e-cdn-images.deezer.com/images/cover/bfce0b47bffa72a5dc05e7248bd6b3cd/500x500.jpg</thumbnail>
+<fanart>http://e-cdn-images.deezer.com/images/cover/bfce0b47bffa72a5dc05e7248bd6b3cd/500x500.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR lime]Todos los Días de Mi Vida[/COLOR]</title>        
+<urlsolve>http://streamcloud.eu/r2w4b88vfrot</urlsolve>
+<info>Un accidente de coche deja a Paige en coma. Cuando se despierta ha perdido la memoria, y ni siquiera reconoce a su marido Leo, con el que llevaba poco tiempo casada. Leo tendrá entonces que trabajar para ganarse de nuevo el corazón de su amada esposa. </info>
+<thumbnail>https://enteratedeloultimo.es/wp-content/uploads/2015/10/todos-los-das-de-mi-vida-41902-16x9-large.jpg</thumbnail>
+<fanart>https://enteratedeloultimo.es/wp-content/uploads/2015/10/todos-los-das-de-mi-vida-41902-16x9-large.jpg</fanart>
+</item>
