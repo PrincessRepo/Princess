@@ -19,6 +19,21 @@
 </item>
 
 <item>
+<title>BALADAS PARA NOS</title>        
+<thumbnail>http://www.fullritmos.com/images/cat_img/Baladas.png</thumbnail>
+<fanart>http://www.fullritmos.com/images/cat_img/Baladas.png</fanart>
+<utube>PL64G6j8ePNurJJ_PtrIP55gopsne2amen</utube>
+</item>
+
+<item>
+<title>PA TIS</title>        
+<thumbnail>http://www.fullritmos.com/images/cat_img/Baladas.png</thumbnail>
+<fanart>http://www.fullritmos.com/images/cat_img/Baladas.png</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Pa%20Tis.xml</externallink>
+</item>
+
+<item>
 <title>SERIES</title>
 <thumbnail>https://i.ytimg.com/vi/3CjRLppejDU/hqdefault.jpg</thumbnail>
 <fanart>https://i.ytimg.com/vi/3CjRLppejDU/hqdefault.jpg</fanart>
@@ -32,13 +47,6 @@
 <jsonrpc>plugin://plugin.video.sin.barreras/</jsonrpc>
 <thumbnail>https://i.imgur.com/wEgoXMQ.jpg</thumbnail>
 <fanart>https://s31.postimg.org/m4folwogr/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>BALADAS PARA NOS</title>        
-<thumbnail>http://www.fullritmos.com/images/cat_img/Baladas.png</thumbnail>
-<fanart>http://www.fullritmos.com/images/cat_img/Baladas.png</fanart>
-<utube>PL64G6j8ePNurJJ_PtrIP55gopsne2amen</utube>
 </item>
 
 <item>
