@@ -204,7 +204,7 @@ https://t.me/sinbarreras
 
 <addon id="plugin.video.Zona.tv"
        name="Zona.tv"
-       version="1.4"
+       version="1.7"
        provider-name="Toro">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
