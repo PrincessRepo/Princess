@@ -144,7 +144,7 @@
 
 <addon id="plugin.video.Princess"
        name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
-       version="0.1.4"
+       version="0.1.6"
        provider-name="Iker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -456,22 +456,5 @@ https://t.me/sinbarreras
 		</assets>
 		<news>Redesigned layout for updated Global Search addon</news>
 	</extension>
-</addon>
-
-<addon id="Wizard.Princess.Krypton"
-	   name="Wizard.Princess.Krypton"
-	   version=""
-	   provider-name="Iker">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Wizard</summary>
-    <description>Wizard configurando correctamente tu Kody</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 </addons>
