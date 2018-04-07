@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Princess"
-       name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
-       version="0.1.8"
-       provider-name="Iker">
+<addon id="plugin.video.tacones"
+       name="[COLOR red]TACONES[/COLOR]"
+       version="0.0.1"
+       provider-name="La Mala de la Novela">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -15,23 +15,17 @@
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />    
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
-  
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
-  <extension point="xbmc.addon.repository" name="Princess">
-        <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio</datadir>
-    </extension>
+
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por y para tí</summary>
-    <description>Julio 2017</description>
+    <summary>TACONES</summary>
+    <description>Addon simple simple</description>
     <platform>all</platform>
   </extension>
 </addon>

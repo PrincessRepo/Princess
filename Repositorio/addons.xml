@@ -144,7 +144,7 @@
 
 <addon id="plugin.video.Princess"
        name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
-       version="0.1.6"
+       version="0.1.8"
        provider-name="Iker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -216,6 +216,37 @@ addonsinbarreras@gmail.com
 
 https://t.me/sinbarreras
 	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tacones"
+       name="[COLOR red]TACONES[/COLOR]"
+       version="0.0.1"
+       provider-name="La Mala de la Novela">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>TACONES</summary>
+    <description>Addon simple simple</description>
     <platform>all</platform>
   </extension>
 </addon>
