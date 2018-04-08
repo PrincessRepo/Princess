@@ -2,8 +2,8 @@
 <addons>
 <addon id="plugin.video.Apolo"
        name="Apolo"
-       version="0.0.1"
-       provider-name="Netai,Toro">
+       version="0.0.4"
+       provider-name="Grupo Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -16,8 +16,11 @@
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" />
     <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+	<import addon="plugin.video.torrentin" opcional ="true"/>
+
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -25,8 +28,8 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>Apolo Addon</summary>
-    <description>
+    <summary>Apolo creado por Grupo Netai</summary>
+    <description> Descubres las mejores peliculas y series a traves de la red ... desde tu kodi.
     </description>
     <platform>all</platform>
   </extension>
@@ -267,7 +270,7 @@ https://t.me/sinbarreras
 
 <addon id="plugin.video.Zona.tv"
        name="Zona.tv"
-       version="1.7"
+       version="1.8"
        provider-name="Toro">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
