@@ -67,6 +67,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.cine" name="Cine" version="1.0.65" provider-name="Topo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Cine</summary>
+    <description>Addon de Cine</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.festa"
        name="[COLOR aqua]*[/COLOR][COLOR lime]FESTA[/COLOR][COLOR aqua]*[/COLOR]"
        version="0.0.7"
@@ -225,20 +246,20 @@ https://t.me/sinbarreras
 
 <addon id="plugin.video.tacones"
        name="[COLOR red]TACONES[/COLOR]"
-       version="0.0.1"
+       version="1.1"
        provider-name="La Mala de la Novela">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+     <import addon="xbmc.python" version="2.1.0"/>
+     <import addon="script.module.beautifulsoup" version="3.2.1"/>
+     <import addon="script.module.simple.downloader" version="0.9.4"/>
+     <import addon="script.module.beautifulsoup4" />
+     <import addon="script.module.requests" />
+     <import addon="script.module.httplib2" />
+     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+     <import addon="script.module.youtube.dl" optional="true"/>
+     <import addon="plugin.video.youtube" optional="true" />
+     <import addon="script.module.urlresolver" optional="true"/>
+     <import addon="script.module.simplejson" />
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -249,7 +270,7 @@ https://t.me/sinbarreras
 
   <extension point="xbmc.addon.metadata">
     <summary>TACONES</summary>
-    <description>Addon simple simple</description>
+    <description>Addon sin ánimo de lucro y con fines exclusivamente educativos</description>
     <platform>all</platform>
   </extension>
 </addon>
