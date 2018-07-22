@@ -1,71 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.Apolo"
-       name="Apolo"
-       version="0.0.4"
-       provider-name="Grupo Netai">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-	<import addon="plugin.video.torrentin" opcional ="true"/>
-
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Apolo creado por Grupo Netai</summary>
-    <description> Descubres las mejores peliculas y series a traves de la red ... desde tu kodi.
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.blackghost"
-       name="Black Ghost"
-       version="0.0.2"
-       provider-name="Black">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>BlackGhost Addon</summary>
-    <description>
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="plugin.video.cine" name="Cine" version="1.0.65" provider-name="Topo">
   <requires>
@@ -124,47 +58,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kodispaintv"
-       name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
-       version="2.2"
-       provider-name="joheos11">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-		<summary>Canales de la Television Española y más...</summary>
-		<description>
-		Complemento de video basado en LiveStreamsPro
-		Puedes seguirme en https://t.me/kodispain y http://konectas.es
-
-		AVISO LEGAL:
-
-		Este complemento no aloja ningun contenido mostrado.
-		Todo el contenido se encuentra libremente en internet.
-		No se acepta ninguna responsabilidad por el uso de este addon.
-
-		¡Disfruta!
-		</description>
-		<platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="plugin.video.Princess"
        name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
@@ -289,43 +182,6 @@ https://t.me/sinbarreras
   </extension>
 </addon>
 
-<addon id="plugin.video.Zona.tv"
-       name="Zona.tv"
-       version="1.8"
-       provider-name="Toro">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-	<import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.repository" name="Toro Repository">
-		<info>https://raw.githubusercontent.com/Torokodi/Toro/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Torokodi/Toro/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Torokodi/Toro/master/Repositorio/</datadir>
-	</extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Zona.tv</summary>
-    <description>Lanzador web, permite ver las mejores paginas de internet en tu
-	mediacenter mediante el programa Crome Launcher. Requiere: Sportdevil, Plexus,
-	Crome.launcher, para funcionar perfectamente.
-    </description>
-    <platform>all</platform>
-    </extension>
-    </addon>
 
 <addon id="repository.Princess" name="[COLOR blue]Princess[/COLOR] Repo" version="0.0.1" provider-name="Iker">
     <extension point="xbmc.addon.repository" name="Princess">
