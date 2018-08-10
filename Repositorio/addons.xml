@@ -84,9 +84,9 @@
   </extension>
 
   <extension point="xbmc.addon.repository" name="Princess">
-        <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml</info>
+        <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xm</info>
         <checksum>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositori</datadir>
     </extension>
 
   <extension point="xbmc.addon.metadata">
@@ -185,9 +185,9 @@ https://t.me/sinbarreras
 
 <addon id="repository.Princess" name="[COLOR blue]Princess[/COLOR] Repo" version="0.0.1" provider-name="Iker">
     <extension point="xbmc.addon.repository" name="Princess">
-        <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml</info>
+        <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xm</info>
         <checksum>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositori</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Princess</summary>
