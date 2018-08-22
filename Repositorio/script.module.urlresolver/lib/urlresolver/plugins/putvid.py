@@ -1,6 +1,6 @@
 """
-    urlresolver XBMC Addon
-    Copyright (C) 2011 t0mm0
+    putvid plugin for URLResolver
+    Copyright (C) 2018 gujal
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -15,28 +15,28 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-import re
-from lib import helpers
 from urlresolver import common
 from urlresolver.resolver import UrlResolver, ResolverError
+from lib import helpers
 
-class Mp4streamResolver(UrlResolver):
-    name = "mp4stream"
-    domains = ["mp4stream.com"]
-    pattern = '(?://|\.)(mp4stream\.com)/embed/([0-9a-zA-Z]+)'
+class PutVidResolver(UrlResolver):
+    name = "putvid"
+    domains = ['putvid.com']
+    pattern = '(?://|\.)(putvid\.com)/(?:embed-)?([0-9a-zA-Z]+)'
 
     def __init__(self):
         self.net = common.Net()
+    
+    def get_url(self, host, media_id):
+        return self._default_get_url(host, media_id)
 
     def get_media_url(self, host, media_id):
         web_url = self.get_url(host, media_id)
-        headers = {'User-Agent': common.EDGE_USER_AGENT, 'Referer': web_url}
-        html = self.net.http_GET(web_url, headers=headers).content
-        url = re.findall('src\s*:\s*\'(.+?)\'', html)
-        if url:
-            return url[-1] + helpers.append_headers(headers)
-        else:
-            raise ResolverError('File not found')
+        html = self.net.http_GET(web_url).content
+        if html:
+            sources = helpers.scrape_sources(html, patterns=['''sources:[^"]+"(?P<url>[^"]+)'''], generic_patterns=False)
+            if sources:
+                source = helpers.pick_source(sources)
+                return source
 
-    def get_url(self, host, media_id):
-        return 'http://mp4stream.com/embed/%s' % media_id
+        raise ResolverError('File not found')
