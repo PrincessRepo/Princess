@@ -1,0 +1,5 @@
+v.1.1
+Añadido addons TVGratis
+
+v.1.0
+Version Inicial
