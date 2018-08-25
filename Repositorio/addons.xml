@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="resource.actualizador" name="Actualizador" version="1.1" provider-name="iker">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Comprobar version Wizard Princess</summary>
+    <description lang="en"></description>
+	<disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.cine" name="Cine" version="1.0.65" provider-name="Topo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -192,22 +208,6 @@ https://t.me/sinbarreras
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="resource.actualizador" name="Actualizador" version="1.1" provider-name="iker">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Comprobar version Wizard Princess</summary>
-    <description lang="en"></description>
-	<disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.22" provider-name="tvaddons">
