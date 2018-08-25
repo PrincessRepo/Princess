@@ -9,8 +9,8 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Comprobar version Wizard Princess</summary>
-	<news>COLOR blue][B] Actualizacion 1.1  (25-08-2018)[/B][/COLOR]
-			** Añadido addons programa ADVset</news>
+	<news>[COLOR blue][B] Actualizacion 1.1  (25-08-2018)[/B][/COLOR]
+		* Añadido addons programa ADVset</news>
     <description lang="en"></description>
 	<disclaimer lang="en"></disclaimer>
     <platform>all</platform>
