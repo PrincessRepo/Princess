@@ -30,7 +30,8 @@ __addon__ = xbmcaddon.Addon()
 __addonname__ = __addon__.getAddonInfo('name')
 __icon__ = __addon__.getAddonInfo('icon')
  
-line1 = "[COLOR blue]NUEVA ACTUALIZACION WIZARD PRINCESS 1.1[/COLOR]"
+line1 = "[COLOR blue]ACTUALIZACION WIZARD PRINCESS 1.1[/COLOR]"
+line2 = "[COLOR blue]Version 1.1[/COLOR]"
 time = 10000 #in miliseconds
  
 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
