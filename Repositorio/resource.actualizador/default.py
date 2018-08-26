@@ -18,5 +18,5 @@ dialog = xbmcgui.Dialog()
 runupdate = xbmc.getInfoLabel('Skin.String(Startup.Favourites.Path)')
 version = addon.getSetting('version')
 update = xbmc.executebuiltin('runupdate')
-if version < "1.1":	
+if version < "1.2":	
 	xbmc.executebuiltin(runupdate)
