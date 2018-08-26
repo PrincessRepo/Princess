@@ -1,8 +1,0 @@
-v.1.2
-Añadido addons festa kids y zonakids
-
-v.1.1
-Añadido addons programa ADVset
-
-v.1.0
-Version Inicial
