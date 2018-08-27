@@ -31,7 +31,7 @@ __addonname__ = __addon__.getAddonInfo('name')
 __icon__ = __addon__.getAddonInfo('icon')
  
 line1 = "[COLOR blue]Wizard Princess Actualizado[/COLOR]"
-time = 20000 #in miliseconds
+time = 30000 #in miliseconds
  
 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 
