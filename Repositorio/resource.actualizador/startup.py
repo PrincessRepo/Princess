@@ -35,7 +35,7 @@ time = 20000 #in miliseconds
  
 xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, __icon__))
 
-[COLOR blue]Actualizacion Wizard Princess v1.3 [/COLOR]
+
 
 
 
