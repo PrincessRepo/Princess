@@ -10,8 +10,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Comprobar actualizaciones Wizard Princess</summary>
 	<news>[COLOR blue][B] Actualizacion 1.4  (09-09-2018)[/B][/COLOR]
-a)Eliminado addons por cierre del creador ** KodiTv **
-b)Agregado nuevos addons:*Cinemania de Netai* y *Mundo Oscuro de Decosub*</news>
+a)Eliminado por cierre del creador KodiTv
+b)Agregado *Cinemania de Netai* y *Mundo Oscuro de Decosub*</news>
     <description lang="es">Tambien por si estais interesados se agregaron los repositorios de Netai y Decosub,para quien quiere instalarse sus otros addons</description>
 	<disclaimer lang="en"></disclaimer>
     <platform>all</platform>
