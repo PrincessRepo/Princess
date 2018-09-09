@@ -194,7 +194,7 @@ https://t.me/sinbarreras
     </extension>
 </addon>
 
-<addon id="resource.actualizador" name="Actualizador" version="1.3" provider-name="iker">
+<addon id="resource.actualizador" name="Actualizador" version="1.4" provider-name="iker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -204,10 +204,16 @@ https://t.me/sinbarreras
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Comprobar actualizaciones Wizard Princess</summary>
-	<news>[COLOR blue][B] Actualizacion 1.3  (26-08-2018)[/B][/COLOR]
-Nueva zona kids, añadidos addons:
-** festa kids **
-** tvchopo kids ** </news>
+	<news>[COLOR blue][B] Actualizacion 1.4  (09-09-2018)[/B][/COLOR]
+a)Eliminado addons por cierre del creador
+** KodiTv **
+
+b)Agregado nuevos addons:
+** Cinemania ** por Netai
+** Mundo Oscuro ** por Decosub
+
+c)Agregados los repositorios de Netai y Decosub,
+para quien quiera instalarse sus otros addons</news>
     <description lang="en"></description>
 	<disclaimer lang="en"></disclaimer>
     <platform>all</platform>
