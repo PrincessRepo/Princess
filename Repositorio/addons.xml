@@ -59,7 +59,7 @@
 
 <addon id="plugin.video.Princess"
        name="[COLOR blue]Princess[/COLOR][COLOR blue] [/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR]"
-       version="0.1.9"
+       version="0.2.0"
        provider-name="Iker">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -72,11 +72,11 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
+	<import addon="script.module.resolveurl" />
     <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
-
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
