@@ -1,0 +1,199 @@
+<? xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+ 
+<item>
+<title> [COLOR azul] OPCION 1 [/ COLOR] </ title>
+<link> $ doregex [lista] </ link>
+ 
+<regex>
+<nombre> lista </ ​​nombre>
+  <listrepeat> <! [CDATA [
+         <SetViewMode> 55 </ SetViewMode>
+         <title> $ pyFunction: '[lista.param3]'. replace (". mp4", "") .replace (". avi", "") .replace (". mkv", "") </ title>
+        <link> $ doregex [getUrl] </ link>
+        <miniatura> https://cdn.pixabay.com/photo/2017/01/16/20/22/bubbles-1985153_960_720.png </ thumbnail>
+        ]]> </ listrepeat>
+<expres> <! [CDATA [href = \ "(. * ?, (. *?) \ .. *?) \". *? preview "> (. *? mkv |. *? mp4 |. *? avi) <]]> <expres>
+<página> http://diskokosmiko.mx/action/SearchFiles?Phrase=MagyckPi&Mode=List&Type=Video&SizeFromMB=0&SizeToMB=0&pageNumber=10 </ page>
+<rawpost> Frase = $ doregex [buscar] & __ RequestVerificationToken = $ doregex [tok] </ rawpost>
+<referer> http://diskokosmiko.mx/action/SearchFiles </ referer>
+<conexión> keep-alive </ connection>
+<aceptar> * / * </ accept>
+<X-Req> XMLHttpRequest </ X-Req>
+<cookieJar> d248aa4e1e697a53b195098a52759e8d21507325199 </ cookieJar>
+</ regex>
+ 
+ 
+ 
+<regex>
+<nombre> buscar </ nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar xbmc
+importar xbmcaddon
+importar xbmcgui
+def GetLSProData (page_data, Cookie_Jar, m):
+    dialog = xbmcgui.Dialog ()
+    d = dialog.input ('Busca tu pelicula o serie favorita:', tipo = xbmcgui.INPUT_ALPHANUM) .replace ("", "+")
+    devolver d
+]]> </ expres>
+<página> </ página>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+ 
+<regex>
+<nombre> tok </ name>
+<expres> DownloadFile. * RequestVerificationToken. *? value = "([^"] +) <expres>
+<página> http://diskokosmiko.mx/ [lista.param1] </ page>
+<referer> http://diskokosmiko.mx/ </ referer>
+<conexión> keep-alive </ connection>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+ 
+ 
+<regex> <nombre> getUrl </ name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, json
+def GetLSProData (page_data, Cookie_Jar, m):
+ 
+ ref = 'http://diskokosmiko.mx/'
+ url = 'http: //diskokosmiko.mx [lista.param1]'
+ encabezados = {'User-Agent': 'Mozilla / 5.0 (X11; Linux i686; rv: 42.0) Gecko / 20100101 Firefox / 42.0 Iceweasel / 42.0', 'Referer': ref,
+            'X-Solicitado-Con': 'XMLHttpRequest', 'Aceptar': '* / *'}
+ session = requests.Session ()
+ r = session.get (url, encabezados = encabezados)
+ rv1 = r.cookies
+ 
+ vfile, vtoken = re.findall ('action / DownloadFile. *? fileId. *? value = "(. *?)". *? Token ". *? value =" (. *?) "', r.text ) [0]
+ data_a = {'fileId': vfile, '__RequestVerificationToken': vtoken}
+ nr = requests.post ('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile, encabezados = encabezados, cookies = rv1, data = data_a) .text
+ nrj = json.loads (nr)
+ nr = nrj ['Contenido']
+ r2 = re.findall (r '(? s) value = \ "(. *?) \"', nr) [0]
+ data_a = {'__ RequestVerificationToken': r2, 'Nombre de usuario': 'iker-kodi', 'Contraseña': 'ikerkodi'}
+ nr1 = requests.post ('http://diskokosmiko.mx/action/Account/Login', encabezados = encabezados, cookies = rv1, data = data_a)
+ imprimir nr1.headers ['Set-Cookie']
+ rasp = re.findall ('ASPXAUTH_v2 = (. *?);', nr1.headers ['Set-Cookie']) [0]
+ rv1 ['. ASPXAUTH_v2'] = escofina
+ data_a = {'fileId': vfile, '__RequestVerificationToken': vtoken}
+ nr3 = requests.post ('http://diskokosmiko.mx/action/DownloadFile?location=fi&f=%s'%vfile, encabezados = encabezados, cookies = rv1, data = data_a) .text
+ r3 = re.findall ('DownloadUrl': "(. *?)" ', nr3) [0]
+ imprimir r3
+ devolver r3
+]]> </ expres>
+<página> </ página>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+<regex>
+<nombre> tok2 </ name>
+<expres> DownloadFile. * RequestVerificationToken. *? value = "([^"] +) <expres>
+<página> http://diskokosmiko.mx [lista.param1] </ page>
+<referer> http://diskokosmiko.mx/ </ referer>
+<conexión> keep-alive </ connection>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+ 
+<miniatura> https://cdn.pixabay.com/photo/2016/03/02/07/37/window-1231894_1280.jpg </ thumbnail>
+<fanart> https://cdn.pixabay.com/photo/2016/03/02/07/37/window-1231894_1280.jpg </ fanart>
+</ item>
+ 
+ 
+<item>
+<title> [COLOR azul] OPCION 2 [/ COLOR] </ title>
+<link> $ doregex [lista] </ link>
+ 
+<regex>
+<nombre> lista </ ​​nombre>
+  <listrepeat> <! [CDATA [
+         <SetViewMode> 55 </ SetViewMode>
+         <title> $ pyFunction: '[lista.param3]'. replace (". mp4", "") .replace (". avi", "") .replace (". mkv", "") </ title>
+        <link> $ doregex [getUrl] </ link>
+        <miniatura> https://cdn.pixabay.com/photo/2014/04/04/14/56/cartoon-313457_1280.jpg </ thumbnail>
+        ]]> </ listrepeat>
+<expres> <! [CDATA [href = \ "(. * ?, (. *?) \ .. *?) \". *? preview "> (. *? mkv |. *? mp4 |. *? avi) <]]> <expres>
+<página> http://kbagi.com/action/SearchFiles?Phrase=MagyckPi&Mode=List&Type=Video&SizeFromMB=0&SizeToMB=0&pageNumber=10 </ page>
+<rawpost> Frase = $ doregex [buscar] & __ RequestVerificationToken = $ doregex [tok] </ rawpost>
+<referer> http://kbagi.com/action/SearchFiles </ referer>
+<conexión> keep-alive </ connection>
+<aceptar> * / * </ accept>
+<X-Req> XMLHttpRequest </ X-Req>
+<cookieJar> d248aa4e1e697a53b195098a52759e8d21507325199 </ cookieJar>
+</ regex>
+ 
+ 
+ 
+<regex>
+<nombre> buscar </ nombre>
+<expres> <! [CDATA [# $ pyFunction
+importar xbmc
+importar xbmcaddon
+importar xbmcgui
+def GetLSProData (page_data, Cookie_Jar, m):
+    dialog = xbmcgui.Dialog ()
+    d = dialog.input ('Busca tu pelicula o serie favorita:', tipo = xbmcgui.INPUT_ALPHANUM) .replace ("", "+")
+    devolver d
+]]> </ expres>
+<página> </ página>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+ 
+<regex>
+<nombre> tok </ name>
+<expres> DownloadFile. * RequestVerificationToken. *? value = "([^"] +) <expres>
+<página> http://kbagi.com/ [lista.param1] </ page>
+<referer> http://kbagi.com/ </ referer>
+<conexión> keep-alive </ connection>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+ 
+ 
+<regex> <nombre> getUrl </ name>
+<expres> <! [CDATA [# $ pyFunction
+importar re, solicitudes, json
+def GetLSProData (page_data, Cookie_Jar, m):
+ 
+ ref = 'http://kbagi.com/'
+ url = 'http: //kbagi.com [lista.param1]'
+ encabezados = {'User-Agent': 'Mozilla / 5.0 (X11; Linux i686; rv: 42.0) Gecko / 20100101 Firefox / 42.0 Iceweasel / 42.0', 'Referer': ref,
+            'X-Solicitado-Con': 'XMLHttpRequest', 'Aceptar': '* / *'}
+ session = requests.Session ()
+ r = session.get (url, encabezados = encabezados)
+ rv1 = r.cookies
+ 
+ vfile, vtoken = re.findall ('action / DownloadFile. *? fileId. *? value = "(. *?)". *? Token ". *? value =" (. *?) "', r.text ) [0]
+ data_a = {'fileId': vfile, '__RequestVerificationToken': vtoken}
+ nr = requests.post ('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile, encabezados = encabezados, cookies = rv1, data = data_a) .text
+ nrj = json.loads (nr)
+ nr = nrj ['Contenido']
+ r2 = re.findall (r '(? s) value = \ "(. *?) \"', nr) [0]
+ data_a = {'__ RequestVerificationToken': r2, 'Nombre de usuario': 'iker-kodi', 'Contraseña': 'ikerkodi'}
+ nr1 = requests.post ('http://kbagi.com/action/Account/Login', encabezados = encabezados, cookies = rv1, data = data_a)
+ imprimir nr1.headers ['Set-Cookie']
+ rasp = re.findall ('ASPXAUTH_v2 = (. *?);', nr1.headers ['Set-Cookie']) [0]
+ rv1 ['. ASPXAUTH_v2'] = escofina
+ data_a = {'fileId': vfile, '__RequestVerificationToken': vtoken}
+ nr3 = requests.post ('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile, encabezados = encabezados, cookies = rv1, data = data_a) .text
+ r3 = re.findall ('DownloadUrl': "(. *?)" ', nr3) [0]
+ imprimir r3
+ devolver r3
+]]> </ expres>
+<página> </ página>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+<regex>
+<nombre> tok2 </ name>
+<expres> DownloadFile. * RequestVerificationToken. *? value = "([^"] +) <expres>
+<página> http://kbagi.com [lista.param1] </ page>
+<referer> http://kbagi.com/ </ referer>
+<conexión> keep-alive </ connection>
+<cookieJar> </ cookieJar>
+</ regex>
+ 
+<miniatura> https://cdn.pixabay.com/photo/2016/03/02/07/37/window-1231894_1280.jpg </ thumbnail>
+<fanart> https://cdn.pixabay.com/photo/2016/03/02/07/37/window-1231894_1280.jpg </ fanart>
+</ item>
