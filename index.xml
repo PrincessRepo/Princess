@@ -9,7 +9,15 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Canciones.xml</externallink>
 </item>
-    
+
+<item>
+<title>VILLANCICOS</title>        
+<thumbnail>http://restablecidos.com/wp-content/uploads/2015/12/navidad.jpg</thumbnail>
+<fanart>http://restablecidos.com/wp-content/uploads/2015/12/navidad.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Villancicos.xml</externallink>
+</item>
+
 <item>
 <title>MOMENTOS</title>
 <thumbnail>https://s17.postimg.org/cmmwyc3nz/Momentos.png</thumbnail>
