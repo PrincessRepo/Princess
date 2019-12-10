@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.Princess" name="[COLOR blue][B]Princess Wizards[/B][/COLOR]" version="1.0" provider-name="Iker">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR blue][B]Princess Wizards[/B][/COLOR]</summary>
-    <description lang="en">"[B]Princess Wizards te permite acceder a las últimas versiones personalizadas.[/B]"</description>
-    <platform>all</platform>
-  </extension>
-</addon>	
 <addon id="plugin.video.cine" name="Cine" version="1.0.65" provider-name="Topo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -160,7 +146,7 @@ https://t.me/sinbarreras
 
 <addon id="repository.Princess" name="[COLOR blue]Princess[/COLOR] Repo" version="0.0.1" provider-name="Iker">
     <extension point="xbmc.addon.repository" name="Princess">
-        <info>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml</info>
+        <info compressed="false">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Princess/master/Repositorio</datadir>
     </extension>
